@@ -164,6 +164,22 @@ logs/
 .DS_Store
 Thumbs.db
 
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+
+# Runtime
+.runtime/
+
 # Gas Town specific
+.beads/*
+!.beads/redirect
 .beads/dolt/
 *.sock
